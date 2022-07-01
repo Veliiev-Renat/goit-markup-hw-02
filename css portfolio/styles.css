@@ -2,6 +2,7 @@ body{
     height: auto;
     font-family: 'Roboto' sans-serif;
     color: #212121;
+    width: 1600px;
 }
 a{
     text-decoration: none;
@@ -49,7 +50,7 @@ font-size: 26px;
 line-height: 1.2;
 letter-spacing: 0.03em;
 color: #000;
-margin:25px 93px 25px 215px;
+margin:25px 90px 25px 215px;
 }
 span{color: #2196F3}
 a[href^="mailto"]{
@@ -59,8 +60,8 @@ a[href^="mailto"]{
     line-height: 1.1;
     letter-spacing: 0.02em;
     color: #757575;
-    margin-left: 310px;
-    margin-right: 60px;
+    margin-left: 330px;
+    margin-right: 50px;
 }
 a[href^="tel"]{
     font-family: 'Roboto';
@@ -83,12 +84,12 @@ img{
 }
 .images{
     display: inline-block;
-    margin: 10px;
+    margin: 30px;
     background-color: #fff;
 }
 .buttons{
-margin-left: 280px;
-margin-right: 280px;
+margin-left: 320px;
+margin-right: 320px;
 margin-bottom: 50px;
 }
 button{
@@ -109,11 +110,11 @@ color: #fff;
 background-color: #2196F3;
 }
 main{
-    padding: 95px 215px;
+    padding: 95px 180px;
 }
 .block{
-    width:1230px;
-    height: 1360px;
+    width:1400px;
+    height: 1420px;
 }
 p{
 font-size: 16px;
