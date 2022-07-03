@@ -1,0 +1,253 @@
+body{
+    font-family:'Roboto',sans-serif;
+    color: #212121;
+}
+.none{
+    display: none;
+}
+/*header styles*/
+header{
+    background:#ECECEC;
+}
+.logo{
+    font-family:'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: #000;
+}
+.header-part{
+    display: inline-block;
+    text-decoration: none;
+}
+.pages-list li{
+    display: inline-block;
+}
+.pages-list a{
+text-decoration: none;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.1;
+letter-spacing: 0.02em;
+color: #212121;
+}
+span{
+    color: #2196F3;
+}
+.link :focus,
+.link :hover{
+    color: #2196F3;
+}
+.contact{
+font-weight: 500;
+font-size: 14px;
+line-height: 1.1px;
+letter-spacing: 0.02em;
+color: #757575;
+}
+.contact:hover,
+.contact:focus{
+    color: #2196F3;
+}
+/*main studio*/
+.service{
+background-color:#2F303A;
+}
+h1{
+font-size: 44px;
+line-height: 1.4;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.service button{
+border-radius: 5px;
+border-color: transparent;
+background-color: #2196F3;
+color:#fff;
+font-weight: 700;
+font-size: 16px;
+line-height: 1.8;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+cursor: pointer;
+}
+.service button:focus,
+.service button:hover{
+    background-color: #F5F4FA;
+}
+/*main partfolio*/
+.catalog li{
+    display: inline-block;
+}
+.catalog button{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.6;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+border-radius: 5px;
+border-color: transparent;
+background-color: #F5F4FA;
+cursor: pointer;
+}
+.catalog button:hover,
+.catalog button:focus{
+    background-color: #2196F3;
+    color: #fff;
+}
+.catalog{
+    padding-inline-start: 0px;
+    list-style-type: none;
+}
+.catalog-list li{
+    display: inline-block;
+}
+.catalog-list h2{
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color: #212121;
+}
+.catalog-list{
+font-size: 16px;
+line-height: 1.7;
+letter-spacing: 0.03em;
+color: #757575;
+}
+.catalog-list{
+padding-inline-start: 0px;
+list-style-type: none;
+}
+.box-1{
+    background-color:#E5E5E5;
+}
+.box-1{
+    padding-inline-start: 0px;
+    list-style-type: none;
+}
+.box-1 h3{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;   
+}
+.box-1 p{
+font-size: 14px;
+line-height: 1.7;
+letter-spacing: 0.03em;
+color: #757575;
+
+}
+.box-1 li{
+    display:inline-block;
+}
+.box-2 h2{
+font-weight: 700;
+font-size: 36px;
+line-height: 1.1;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+.box-2 ul{
+    padding-inline-start: 0px;
+    list-style-type: none;
+}
+.box-2 li{
+    display: inline-block;
+}
+.team{
+    background-color: #F5F4FA;
+}
+.team h2{
+font-weight: 700;
+font-size: 36px;
+line-height: 1.1;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+.team li{
+display:inline-block;
+background: #FFFFFF;
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
+}
+.team ul{
+    list-style-type: none;
+    padding-inline-start:0px;
+}
+.team h3{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.team p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+/*footer styles*/
+footer{
+background-color:#2F303A;
+}
+.footer-logo{
+font-family:'Raleway';
+font-weight: 700;
+font-size: 26px;
+line-height: 1.2;
+letter-spacing: 0.03em;
+color: #fff;
+text-decoration: none;
+}
+address ul{
+    list-style-type: none;
+    padding-inline-start: 0px;
+}
+a[target]{
+    font-size: 14px;
+    line-height: 1.7; 
+    letter-spacing: 0.03em; 
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.mail{
+font-size: 14px;
+line-height: 1.7;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+text-decoration: none;
+}
+a[target]:hover,
+a[target]:focus{
+color: #2196F3;
+}
+.tel{
+font-size: 14px;
+line-height: 1.7;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+text-decoration: none;
+}
+.tel:hover,
+.tel:focus{
+    color: #2196F3;
+}
+.mail:hover,
+.mail:focus{
+    color: #2196F3;
+}
